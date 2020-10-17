@@ -11,6 +11,10 @@
 		9EE5E1DA253B674A00B6A07B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE5E1D9253B674A00B6A07B /* ContentView.swift */; };
 		9EE5E1DC253B674B00B6A07B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EE5E1DB253B674B00B6A07B /* Assets.xcassets */; };
 		9EE5E1DF253B674B00B6A07B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EE5E1DE253B674B00B6A07B /* Preview Assets.xcassets */; };
+		9EE5E1EA253B677400B6A07B /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE5E1E9253B677400B6A07B /* Home.swift */; };
+		9EE5E1EE253B679800B6A07B /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE5E1ED253B679800B6A07B /* User.swift */; };
+		9EE5E1F3253B687A00B6A07B /* SearchUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE5E1F2253B687A00B6A07B /* SearchUser.swift */; };
+		9EE5E1F6253B6D7600B6A07B /* CustomSearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE5E1F5253B6D7600B6A07B /* CustomSearchBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +24,10 @@
 		9EE5E1DB253B674B00B6A07B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9EE5E1DE253B674B00B6A07B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9EE5E1E0253B674B00B6A07B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9EE5E1E9253B677400B6A07B /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		9EE5E1ED253B679800B6A07B /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		9EE5E1F2253B687A00B6A07B /* SearchUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchUser.swift; sourceTree = "<group>"; };
+		9EE5E1F5253B6D7600B6A07B /* CustomSearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSearchBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +60,9 @@
 		9EE5E1D6253B674A00B6A07B /* SearchBarPagination */ = {
 			isa = PBXGroup;
 			children = (
+				9EE5E1F0253B67B300B6A07B /* ViewModel */,
+				9EE5E1E8253B676500B6A07B /* View */,
+				9EE5E1E7253B675F00B6A07B /* Model */,
 				9EE5E1D7253B674A00B6A07B /* SearchBarPaginationApp.swift */,
 				9EE5E1D9253B674A00B6A07B /* ContentView.swift */,
 				9EE5E1DB253B674B00B6A07B /* Assets.xcassets */,
@@ -67,6 +78,31 @@
 				9EE5E1DE253B674B00B6A07B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9EE5E1E7253B675F00B6A07B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9EE5E1ED253B679800B6A07B /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9EE5E1E8253B676500B6A07B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9EE5E1E9253B677400B6A07B /* Home.swift */,
+				9EE5E1F5253B6D7600B6A07B /* CustomSearchBar.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9EE5E1F0253B67B300B6A07B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				9EE5E1F2253B687A00B6A07B /* SearchUser.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +174,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9EE5E1EE253B679800B6A07B /* User.swift in Sources */,
 				9EE5E1DA253B674A00B6A07B /* ContentView.swift in Sources */,
+				9EE5E1F6253B6D7600B6A07B /* CustomSearchBar.swift in Sources */,
+				9EE5E1EA253B677400B6A07B /* Home.swift in Sources */,
+				9EE5E1F3253B687A00B6A07B /* SearchUser.swift in Sources */,
 				9EE5E1D8253B674A00B6A07B /* SearchBarPaginationApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
